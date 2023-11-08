@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-image: url(../img/26.ddztkos-34a2ddb7-3f2e-4b70-b243-4859ea8124e5.png);
+    background-size: cover;
+    
+    padding: 0 3rem;
+}
+.lefted{
+    font-family: 'Doom 2016 Left', sans-serif;
+    
+}
+.righted{
+    font-family: 'Doom 2016 right', sans-serif;
+    
+}
+.centered{
+    font-family: 'Doom 2016 text', sans-serif;
+    
+}
+span{
+    background: linear-gradient(180deg, rgb(28, 34, 105) 32%, rgb(31, 38, 51) 35%, rgba(241,155,12,1) 43%);
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 5px black;
+    font-size: 80px;
+}
+body{
+    background-image: url(../img/skinface.1.jpg);
+    background-size: cover;
+}
+main{
+    display: flex;
+    align-items: center;
+    padding: 0 5rem;
+}
+#grid{
+    width: 510px;
+    height: 510px;
+    margin: 1.5rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.bg-black{
+    background: url(../img/doom-game-texture-wallpaper-preview.jpg);
+    
+    
+}
+select{
+    border: 2px solid black;
+    padding: 0.5rem;
+    background-color: rgb(60, 60, 60);
+    font-family: 'DooM', sans-serif;
+    color:#C30000;
+}
+option{
+    border: 2px solid black;
+    padding: 0.5rem;
+    background-color:rgb(60, 60, 60);
+    font-family: 'DooM', sans-serif;
+    color:#C30000;
+}
+button{
+    border: 2px solid black;
+    padding: 0.5rem;
+    background-color: rgb(60, 60, 60);
+    font-family: 'DooM', sans-serif;
+    color:#C30000;
+}
+.easy-cell{
+    
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 1px solid rgb(46, 46, 46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    background: url(../img/bigdoor2.png);
+    background-size: contain;
+     
+    
+}
+
+.mid-cell{
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+    border: 1px solid rgb(46, 46, 46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/bigdoor2.png);
+    background-size: contain;
+     
+    
+}
+.hard-cell{
+    width: calc(100% / 7);
+    height: calc(100% / 7);
+    border: 1px solid rgb(46, 46, 46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    background: url(../img/bigdoor2.png);
+    background-size: contain;
+     
+    
+}
+.clicked{
+    background-image: url(../img/giff.gif);
+    background-size: cover;
+    
+    transform: translateY(0);
+   
+}
+
+.foot{
+    width: 100%;
+    height: 80px;
+     background-image: url(../img/Immagine\ 2023-11-08\ 101343.png);
+     background-size: contain;
+     position: relative;
+}
+footer img{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
