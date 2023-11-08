@@ -18,12 +18,13 @@ start.addEventListener("click", function(){
     grid.innerHTML= "";
     console.log(modevalore)
 
+    
    for (let i = 1; i <= 16; i++) {
-    let bombsNum = Math.floor(Math.random() * 100);
-    bombsNum.push(bombsNums)
+    numeriCasuali = Math.floor(Math.random() * 100);
+    bombsNums.push(numeriCasuali)
     
     
-   } console.log(bombsNum)
+   } console.log(bombsNums)
      
     if (modevalore == "easy"){
         numCella = 84 + bombsNums
