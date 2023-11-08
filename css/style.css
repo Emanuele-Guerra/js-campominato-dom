@@ -16,6 +16,9 @@ header{
     
     padding: 0 3rem;
 }
+main{
+    height: calc(100vh - 160px);
+}
 .lefted{
     font-family: 'Doom 2016 Left', sans-serif;
     
@@ -90,8 +93,17 @@ button{
     background-size: contain;
     background: url(../img/bigdoor2.png);
     background-size: contain;
-     
-    
+}
+.easy-bomb{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 1px solid rgb(46, 46, 46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    background: url(../img/bigdoor2.png);
+    background-size: contain;
 }
 
 .mid-cell{
@@ -103,8 +115,16 @@ button{
     align-items: center;
     background: url(../img/bigdoor2.png);
     background-size: contain;
-     
-    
+}
+.mid-bomb{
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+    border: 1px solid rgb(46, 46, 46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/bigdoor2.png);
+    background-size: contain;
 }
 .hard-cell{
     width: calc(100% / 7);
@@ -116,17 +136,28 @@ button{
     background-size: contain;
     background: url(../img/bigdoor2.png);
     background-size: contain;
-     
-    
+}
+.hard-bomb{
+    width: calc(100% / 7);
+    height: calc(100% / 7);
+    border: 1px solid rgb(46, 46, 46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    background: url(../img/bigdoor2.png);
+    background-size: contain;
 }
 .clicked{
     background-image: url(../img/giff.gif);
     background-size: cover;
     
     transform: translateY(0);
-   
 }
-
+.good{
+    background-image: url(../img/doom-face-relax.gif);
+    background-size: contain;
+}
 .foot{
     width: 100%;
     height: 80px;
