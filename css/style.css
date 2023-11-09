@@ -5,8 +5,9 @@
     font-family: sans-serif;
     
 }
-#dead{
-    display: none;
+.dead{
+    
+    background-image: url(../img/doomguyDead.gif);
 }
 .lose{
     height: 100vh;
@@ -64,8 +65,8 @@ main{
     padding: 0 5rem;
 }
 #grid{
-    width: 510px;
-    height: 510px;
+    width: 400px;
+    height: 400px;
     margin: 1.5rem auto;
     display: flex;
     flex-wrap: wrap;
